@@ -1,5 +1,8 @@
 # Flexy
 
+Forked from <https://github.com/sjaakvandenberg/flexy>, thank you!
+It might contain personal customization, prefer using the original fork as your base!
+
 Flexy is a modern theme for [Hexo](https://hexo.io/), written using [Flexbox](https://philipwalton.github.io/solved-by-flexbox/).
 
 ![Flexy Screenshot](source/images/screenshot.png)
