@@ -8,7 +8,7 @@ if is_home()
         h2(itemprop='headline')= post.title
         span.post-meta
           | #{__('content.published_on')}
-          time(itemprop='datePublished', datetime= post.date.toISOString())= full_date(new Date(post.date), ' dddd, MMMM Do YYYY') + ' at ' + full_date(new Date(post.date), 'H:mm')
+          time(itemprop='datePublished', datetime= post.date.toISOString())= full_date(new Date(post.date), ' dddd, MMMM Do YYYY') + ' ' + __('content.at') + ' ' + full_date(new Date(post.date), 'H:mm')
           | , #{_p('content.reading_time', reading_length)}
         p(itemprop='text').post-excerpt= post.intro ? post.intro : post.content.replace(/<(?:.|\n)*?>/gm, '').substr(0, 220)
   footer(itemscope, itemtype='https://schema.org/WPFooter')
@@ -44,7 +44,7 @@ else if is_page()
     if page.updated
       span.post-meta
         | #{__('content.last_updated_on')}
-        time(itemprop='dateModified', datetime= page.date.toISOString())= full_date(new Date(page.updated), ' dddd, MMMM Do YYYY') + ' at ' + full_date(new Date(page.updated), 'H:mm')
+        time(itemprop='dateModified', datetime= page.date.toISOString())= full_date(new Date(page.updated), ' dddd, MMMM Do YYYY') + ' ' + __('content.at') + ' ' + full_date(new Date(page.updated), 'H:mm')
     != page.content
   include _comments
 else if is_post()
@@ -52,10 +52,10 @@ else if is_post()
     h1(itemprop='headline')= page.title
     span.post-meta
       | #{__('content.published_on')}
-      time(itemprop='datePublished', datetime= page.date.toISOString())= full_date(new Date(page.date), ' dddd, MMMM Do YYYY') + ' at ' + full_date(new Date(page.date), 'H:mm')
+      time(itemprop='datePublished', datetime= page.date.toISOString())= full_date(new Date(page.date), ' dddd, MMMM Do YYYY') + ' ' + __('content.at') + ' ' + full_date(new Date(page.date), 'H:mm')
       if page.updated
         br
         | #{__('content.last_updated_on')}
-        time(itemprop='dateModified', datetime= page.date.toISOString())= full_date(new Date(page.updated), ' dddd, MMMM Do YYYY') + ' at ' + full_date(new Date(page.updated), 'H:mm')
+        time(itemprop='dateModified', datetime= page.date.toISOString())= full_date(new Date(page.updated), ' dddd, MMMM Do YYYY') + ' ' + __('content.at') + ' ' + full_date(new Date(page.updated), 'H:mm')
     != page.content
   include _comments
