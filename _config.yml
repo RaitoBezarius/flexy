@@ -1,16 +1,16 @@
 ---
 # config
 logo: /images/raito.jpg
-keywords: "raito bezarius, ryan lahfa, developer, reactjs, javascript, python, asynchronous, rust, animes, japanese culture"
+keywords: "raito bezarius, ryan lahfa, développeur, reactjs, javascript, python, asynchrone, rust, animes, culture japonaise"
 pubkey:
 menu:
-  Home: /en
-  Articles: /en/articles
-  About: /en/about
+  Home: /
+  Articles: /articles
+  À propos de moi: /about
   Keybase: "https://keybase.io/RaitoBezarius"
 
 # Content
-excerpt_link: Read more
+excerpt_link: En lire plus
 
 # Miscellaneous
 rss: /atom.xml
