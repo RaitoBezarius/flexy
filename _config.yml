@@ -1,6 +1,6 @@
 ---
 # config
-logo: /images/raito.jpg
+logo: /en/images/raito.jpg
 keywords: "raito bezarius, ryan lahfa, developer, reactjs, javascript, python, asynchronous, rust, animes, japanese culture"
 pubkey:
 menu:
@@ -13,5 +13,5 @@ menu:
 excerpt_link: Read more
 
 # Miscellaneous
-rss: /atom.xml
+rss: /en/atom.xml
 google_analytics:
