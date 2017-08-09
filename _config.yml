@@ -4,9 +4,9 @@ logo: /images/raito.jpg
 keywords: "raito bezarius, ryan lahfa, developer, reactjs, javascript, python, asynchronous, rust, animes, japanese culture"
 pubkey:
 menu:
-  Home: /
-  Articles: /articles
-  About: /about
+  Home: /en
+  Articles: /en/articles
+  About: /en/about
   Keybase: "https://keybase.io/RaitoBezarius"
 
 # Content
