@@ -1,0 +1,13 @@
+footer:
+  published_with: "Publié avec"
+  rss_feed: "Flux RSS"
+  license: "Sous licence MIT"
+content:
+  recent_articles: "Articles récents"
+  published_on: "Publié le"
+  reading_time:
+    zero: "court (< 1 min)"
+    one: "une minute de lecture"
+    other: "%d minutes de lecture"
+  last_updated_on: "Mise à jour le"
+  at: "à"

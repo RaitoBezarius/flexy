@@ -1,0 +1,13 @@
+footer:
+  published_with: "Published with"
+  rss_feed: "RSS Feed"
+  license: "MIT License"
+content:
+  recent_articles: "Recent Articles"
+  published_on: "Published on"
+  reading_time:
+    zero: "short (< 1 min)"
+    one: "a minute read"
+    other: "%d min read"
+  last_updated_on: "Last updated on"
+  at: "at"
